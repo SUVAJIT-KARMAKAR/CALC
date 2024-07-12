@@ -1,0 +1,104 @@
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &_calculator {
+        background-color: $primary-calculator-color;
+        width: 100%;
+        max-width: 375px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        &_display {
+            min-height: 200px;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: $primary-text-color;
+            text-align: right;
+            flex: 1 1 0%;
+
+            &_content {
+                &--input {
+                    font-size: 1.65rem;
+                    margin-bottom: 1rem;
+
+                    &--operator {
+                        color: $primary-operator-color;
+                        font-weight: bold;
+                    }
+
+                    &--brackets {
+                        color: $primary-action-color;
+                    }
+
+                    &--percent {
+                        color: $primary-percent-color;
+                    }
+                }
+
+                &--output {
+                    font-size: 3.65rem;
+                    font-weight: bold;
+                    max-width: 100%;
+                    overflow: auto;
+                    width: 100%;
+                }
+            }
+        }
+
+        &_keys {
+            background-color: $secondary-calculator-color;
+            padding: 1.5rem;
+            border-radius: 2rem 2rem 0 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-gap: 2rem;
+            box-shadow: 0px -2px 6px rgba(0,0,0,0.2);
+
+            &--key {
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                padding-top: 85%;
+                background-color: $primary-key-color;
+                border-radius: 1rem;
+                user-select: none;
+
+                &:hover {
+                    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+                }
+
+                span {
+                    position: absolute;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    color: $primary-button-color;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            &--operator {
+                span {
+                    color: $primary-operator-color;
+                }
+            }
+
+            &--action {
+                span {
+                    color: $primary-action-color;
+                }
+            }
+        }
+    }
+
+
+}

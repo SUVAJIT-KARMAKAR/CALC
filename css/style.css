@@ -1,0 +1,84 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*, *::after, *::before {
+  padding: 0;
+  margin: 0; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; }
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.application {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .application_calculator {
+    background-color: #22252D;
+    width: 100%;
+    max-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; }
+    .application_calculator_display {
+      min-height: 200px;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      color: #fff;
+      text-align: right;
+      flex: 1 1 0%; }
+      .application_calculator_display_content--input {
+        font-size: 1.65rem;
+        margin-bottom: 1rem; }
+        .application_calculator_display_content--input--operator {
+          color: #EB6666;
+          font-weight: bold; }
+        .application_calculator_display_content--input--brackets {
+          color: #26FED7; }
+        .application_calculator_display_content--input--percent {
+          color: #eaea1c; }
+      .application_calculator_display_content--output {
+        font-size: 3.65rem;
+        font-weight: bold;
+        max-width: 100%;
+        overflow: auto;
+        width: 100%; }
+    .application_calculator_keys {
+      background-color: #292D36;
+      padding: 1.5rem;
+      border-radius: 2rem 2rem 0 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-gap: 2rem;
+      box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2); }
+      .application_calculator_keys--key {
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        padding-top: 85%;
+        background-color: #262933;
+        border-radius: 1rem;
+        user-select: none; }
+        .application_calculator_keys--key:hover {
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); }
+        .application_calculator_keys--key span {
+          position: absolute;
+          font-size: 2.5rem;
+          font-weight: bold;
+          color: #FFF;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+      .application_calculator_keys--operator span {
+        color: #EB6666; }
+      .application_calculator_keys--action span {
+        color: #26FED7; }

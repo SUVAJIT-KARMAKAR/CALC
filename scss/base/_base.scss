@@ -1,0 +1,17 @@
+// RESET ALL PRESET STYLES
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $primary-background-color;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    // font-size: 1.35rem;
+}

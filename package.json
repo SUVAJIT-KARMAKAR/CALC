@@ -4,7 +4,7 @@
   "description": "A simple scientific calculator application - Internship @CodSoft",
   "main": "index.js",
   "scripts": {
-    "compile-scss": "node-sass scss/main.scss css/style.css"
+    "compile-scss": "node-sass scss/main.scss css/style.css -w"
   },
   "author": "SUVAJIT KARMAKAR",
   "license": "ISC",

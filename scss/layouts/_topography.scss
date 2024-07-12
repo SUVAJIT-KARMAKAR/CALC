@@ -25,7 +25,7 @@
 
             &_content {
                 &--input {
-                    font-size: 1.65rem;
+                    font-size: 2rem;
                     margin-bottom: 1rem;
 
                     &--operator {
@@ -43,7 +43,7 @@
                 }
 
                 &--output {
-                    font-size: 3.65rem;
+                    font-size: 5rem;
                     font-weight: bold;
                     max-width: 100%;
                     overflow: auto;
@@ -99,6 +99,4 @@
             }
         }
     }
-
-
 }

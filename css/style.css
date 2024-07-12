@@ -36,7 +36,7 @@ body {
       text-align: right;
       flex: 1 1 0%; }
       .application_calculator_display_content--input {
-        font-size: 1.65rem;
+        font-size: 2rem;
         margin-bottom: 1rem; }
         .application_calculator_display_content--input--operator {
           color: #EB6666;
@@ -46,7 +46,7 @@ body {
         .application_calculator_display_content--input--percent {
           color: #eaea1c; }
       .application_calculator_display_content--output {
-        font-size: 3.65rem;
+        font-size: 5rem;
         font-weight: bold;
         max-width: 100%;
         overflow: auto;

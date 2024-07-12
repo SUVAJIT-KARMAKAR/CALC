@@ -19,13 +19,23 @@ body {
   align-items: center;
   height: 100vh; }
   .application_calculator {
-    background-color: #22252D;
+    background-color: #a3a6ab;
     width: 100%;
     max-width: 375px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
+    .application_calculator_icon {
+      position: absolute;
+      transform: scale(1.4);
+      top: 2rem;
+      left: 2rem;
+      font-size: 2rem;
+      color: #fff; }
+      .application_calculator_icon i {
+        margin: 0; }
     .application_calculator_display {
       min-height: 200px;
       padding: 1.5rem;
@@ -39,12 +49,12 @@ body {
         font-size: 2rem;
         margin-bottom: 1rem; }
         .application_calculator_display_content--input--operator {
-          color: #EB6666;
+          color: #de3813;
           font-weight: bold; }
         .application_calculator_display_content--input--brackets {
-          color: #26FED7; }
+          color: #0ae4ef; }
         .application_calculator_display_content--input--percent {
-          color: #eaea1c; }
+          color: #0ae4ef; }
       .application_calculator_display_content--output {
         font-size: 5rem;
         font-weight: bold;
@@ -52,7 +62,7 @@ body {
         overflow: auto;
         width: 100%; }
     .application_calculator_keys {
-      background-color: #292D36;
+      background-color: #7b7c7d;
       padding: 1.5rem;
       border-radius: 2rem 2rem 0 0;
       display: grid;
@@ -66,7 +76,7 @@ body {
         display: flex;
         padding-top: 85%;
         background-color: #262933;
-        border-radius: 1rem;
+        border-radius: 2rem;
         user-select: none; }
         .application_calculator_keys--key:hover {
           box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); }
@@ -79,6 +89,6 @@ body {
           left: 50%;
           transform: translate(-50%, -50%); }
       .application_calculator_keys--operator span {
-        color: #EB6666; }
+        color: #de3813; }
       .application_calculator_keys--action span {
-        color: #26FED7; }
+        color: #0ae4ef; }

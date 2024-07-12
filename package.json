@@ -1,0 +1,14 @@
+{
+  "name": "calculator-application",
+  "version": "1.0.0",
+  "description": "A simple scientific calculator application - Internship @CodSoft",
+  "main": "index.js",
+  "scripts": {
+    "compile-scss": "node-sass scss/main.scss css/style.css"
+  },
+  "author": "SUVAJIT KARMAKAR",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

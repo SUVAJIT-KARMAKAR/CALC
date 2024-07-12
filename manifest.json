@@ -1,0 +1,28 @@
+{
+    "short_name": "",
+    "name": "",
+    "icons": [
+        {
+            "src": "/resources/images/manifest-logo.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        },
+
+        {
+            "src": "/resources/images/manifest-logo.svg",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+
+        {
+            "src": "/resources/images/manifest-logo.svg",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+
+    ],
+    "background_color": "#a3a6ab",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#a3a6ab"
+}

@@ -1,10 +1,12 @@
 
-# CALC
-![GUESS-IT-LOGO](resources/images/CALC-LOGO.png)
+# CODSOFT | CALC
+![](resources/images/CALC-LOGO.png)
 
 
 #### A simple web-calculator for mobile devices, fully-responsive with proper functionalities and eye-catching digit color seperation.
-#### This application supports manifest.json file for easy installation on mobile through google chrome
+#### This application supports manifest.json file for easy installation on mobile through google chrome.
+
+#### This web-application is a task given by the CODSOFT for the month of JULY INTERNSHIP - BATCH 61
 
 ## BADGES
 
